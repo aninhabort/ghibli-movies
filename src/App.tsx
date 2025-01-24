@@ -1,7 +1,6 @@
 import "./index.css";
 import {
   HeaderComponent,
-  Input,
   MainComponent,
 } from "./app.style";
 
@@ -17,8 +16,6 @@ function App() {
       <MainComponent>
         <HeaderComponent>
           <h1>Ghibli Movies</h1>
-
-          <Input type="text" placeholder="Search for a movie"></Input>
         </HeaderComponent>
 
         <Routes>

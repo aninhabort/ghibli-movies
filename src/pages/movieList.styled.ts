@@ -24,6 +24,33 @@ export const MovieListComponent = styled.div`
   }
 `;
 
+export const SearchComponent = styled.div`
+  margin: 0 0 10px 34px;
+  padding: 10px;
+  background-color: white;
+  width: 260px;
+  height: 28px;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  border-radius: 8px;
+`;
+
+export const Input = styled.input`
+  background: none;
+  background-color: none;
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+  width: 220px;
+  height: 20px;
+`;
+
+export const ButtonSearch = styled.button`
+  background: none;
+  border: none;
+`;
+
 export const MovieComponent = styled.div`
   display: flex;
   flex-flow: row;

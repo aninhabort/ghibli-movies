@@ -17,9 +17,8 @@ export const HeaderComponent = styled.header`
   flex-flow: row wrap;
   align-items: center;
   justify-content: space-between;
-  margin: 20px;
-  padding: 20px;
-  padding-bottom: 10px;
+  margin: 10px;
+  padding: 10px 0 0 30px;
 
   @media (width: 425px) {
     justify-content: center;
@@ -38,14 +37,4 @@ export const NavComponent = styled.div`
   padding: 10px 20px;
   gap: 16px;
   padding: 14px 20px;
-`;
-
-export const Input = styled.input`
-  background: none;
-  background-color: white;
-  border-radius: 10px;
-  padding: 10px;
-  border: none;
-  width: 220px;
-  height: 20px;
 `;
