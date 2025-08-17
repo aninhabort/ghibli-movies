@@ -58,7 +58,7 @@ The app will be available at **[http://localhost:3000/](http://localhost:3000/)*
 
 ## 📸 Preview
 
-![Preview](./screenshot.png)
+![Preview](./public/screenshot.png)
 
 ---
 
