@@ -1,50 +1,89 @@
-# React + TypeScript + Vite
+# 🎬 Ghibli Movies
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple web app that displays movies from **Studio Ghibli**, one of the most beloved animation studios in the world.  
+The application fetches data from the [Studio Ghibli API](https://ghibliapi.vercel.app/) and presents it in a clean and user-friendly interface.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** [allghiblimovies.netlify.app](https://allghiblimovies.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- 📜 List of Studio Ghibli movies  
+- 🎥 Movie details including title, description, director, producer, release date, and more  
+- 🔍 Simple and intuitive interface for exploring films  
 
-- Configure the top-level `parserOptions` property like this:
+---
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## 🚀 Technologies
+
+This project was built using:
+
+- **React** – For building the user interface  
+- **JavaScript (ES6+)** – Core language of the project  
+- **CSS** – For styling and layout  
+- **Studio Ghibli API** – Open API that provides data about the films  
+
+---
+
+## 📦 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/aninhabort/ghibli-movies.git
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+Navigate into the project folder:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+```bash
+cd ghibli-movies
 ```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the project locally:
+
+```bash
+npm start
+```
+
+The app will be available at **[http://localhost:3000/](http://localhost:3000/)**.
+
+---
+
+## 📸 Preview
+
+![Preview](./screenshot.png)
+
+---
+
+## 📚 API Reference
+
+Data is fetched from the [Studio Ghibli API](https://ghibliapi.vercel.app/), which provides information such as:
+
+* Movie title
+* Original title
+* Director
+* Producer
+* Release date
+* Running time
+* Description
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+If you’d like to improve this project, feel free to **open an issue** or submit a **pull request**.
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.
+See the [LICENSE](./LICENSE) file for more details.
