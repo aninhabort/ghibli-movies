@@ -80,10 +80,3 @@ Data is fetched from the [Studio Ghibli API](https://ghibliapi.vercel.app/), whi
 
 Contributions are welcome!
 If you’d like to improve this project, feel free to **open an issue** or submit a **pull request**.
-
----
-
-## 📜 License
-
-This project is licensed under the **MIT License**.
-See the [LICENSE](./LICENSE) file for more details.
